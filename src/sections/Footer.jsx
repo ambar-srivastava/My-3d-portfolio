@@ -12,10 +12,10 @@ const Footer = () => {
                 <a href="https://github.com/ambar-srivastava" target="_blank" rel='noreferrer' className='flex justify-center items-center'><img src="/assets/github.svg" alt="github" className='w-1/2 h-1/2' /></a>
             </div>
             <div className=' social-icon'>
-                <a href="https://github.com/ambar-srivastava" target="_blank" rel='noreferrer' className='flex justify-center items-center'><img src="/assets/instagram.svg" alt="instagram" className='w-1/2 h-1/2' /></a>
+                <a href="https://x.com/AmbarSri_0027" target="_blank" rel='noreferrer' className='flex justify-center items-center'><img src="/assets/twitter.svg" alt="twitter" className='w-1/2 h-1/2' /></a>
             </div>
             <div className=' social-icon'>
-                <a href="https://github.com/ambar-srivastava" target="_blank" rel='noreferrer' className='flex justify-center items-center'><img src="/assets/twitter.svg" alt="twitter" className='w-1/2 h-1/2' /></a>
+                <a href="https://www.instagram.com/ambarsrivastava_/?next=%2F" target="_blank" rel='noreferrer' className='flex justify-center items-center'><img src="/assets/instagram.svg" alt="instagram" className='w-1/2 h-1/2' /></a>
             </div>
         </div>
         <p className='text-white-500'>&copy; 2024 Ambar Srivastava. All rights reserved.</p>
