@@ -48,7 +48,7 @@ const Contact = () => {
    } 
     
   return (
-    <section className='c-space my-20 max-w-7xl lg:mx-auto'>
+    <section id="contact" className='c-space my-20 max-w-7xl lg:mx-auto'>
         <div className='relative min-h-screen flex justify-center items-center flex-col'>
             <img src="/assets/terminal.png" alt="terminal" className=" absolute inset-0 min-h-screen"/>
             <div className="contact-container">

@@ -4,8 +4,8 @@ import { navLinks } from "../constants/index.js";
 const NavItems = ({ onClick = () => {} }) => (
   <ul className=" nav-ul">
     {navLinks.map(({ id, href, name }) => (
-      <li key={id} className=" nav-li">
-        <a href={href} className=" nav-li_a" onClick={onClick}>
+      <li key={id} className="nav-li">
+        <a href={href} className="nav-li_a" onClick={onClick}>
           {name}
         </a>
       </li>
@@ -26,9 +26,8 @@ const Navbar = () => {
         <div className="flex justify-between items-center py-5 mx-auto c-space">
           <a
             href="#home"
-            className=" text-neutral-400 font-bold text-xl hover:text-white transition-colors"
           >
-            Ambar
+            <img src="/assets/ambar.svg" alt="logo" className=" w-40 md:w-52 lg:w-56" />
           </a>
 
           <button

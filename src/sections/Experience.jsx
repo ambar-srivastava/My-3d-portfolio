@@ -10,7 +10,7 @@ const Experience = () => {
     const [animationName, setAnimationName] = useState("idle")
 
   return (
-    <section className='c-space my-20 max-w-7xl lg:mx-auto'>
+    <section id='experience' className='c-space my-20 max-w-7xl lg:mx-auto'>
         <div className='w-full text-white-600'>
             <h3 className='head-text'>
                 My Work Experience
@@ -21,9 +21,9 @@ const Experience = () => {
                         <ambientLight intensity={7}/>
                         <spotLight position={[10,10,10]} angle={0.15} penumbra={1}/>
                         <directionalLight position={[10,10,10]} intensity={1}/>
-                        <OrbitControls enableZoom={false} maxPolarAngle={Math.PI / 2} />
+                        <OrbitControls enableZoom={false} maxPolarAngle={Math.PI / 3} />
                         <Suspense fallback={<CanvasLoader/>}>
-                            <Developer position-y={-3} scale={3} animationName={animationName}/>
+                            <Developer position-y={-3.5} scale={3.1} animationName={animationName}/>
                         </Suspense>
                     </Canvas>
                 </div>
